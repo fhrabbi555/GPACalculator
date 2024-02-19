@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator | Gono Bishwabidyalay</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://www.gonouniversity.edu.bd/wp-content/uploads/2018/08/gb-favicon-150x150.png" sizes="32x32" />
+</head>
+
+<body>
+
+    <img class="logo" src="img/logo.png" alt="">
+   
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">GPA Calculator</a>
+        <a href="cgpa.html" target="_blank">CGPA Calculator</a>
+        <a href="https://www.gonouniversity.edu.bd/" target="_blank">Main Website</a>
+        
+        </div>
+    <br>
+    
+    <br>
+<div class="container">
+
+    <!--Info Column-->
+<div class="form-row">
+    <div class="col">
+        <b id ="info" class="columnnamet">Full Name</b>
+    </div>
+
+    <div class="col">
+        <b id ="info" class="columnnamet">Exam Roll</b>
+    </div>
+
+    <div class="col">
+        <b id ="info2" class="columnnamet">Department</b>
+    </div>
+    <div class="col">
+        <b  id ="info2" class="columnnamet">Batch</b>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <input type="text" id="fname" name="firstname" placeholder="Your Name">
+    </div>
+    <div class="col">
+        <input type="text" id="fname" name="firstname" placeholder="Exam Roll">
+    </div>
+        
+    <div class="col">
+        <input type="text" id="lname" name="Department" placeholder="Department">
+    </div>
+
+    <div class="col">
+        <input type="text" id="lname" name="Batch" placeholder="Batch">
+    </div>
+    
+  </div>
+</div>
+
+<div class="container">
+
+
+
+<!--Info Column-->
+<div class="form-row">
+    <div class="col">
+        <b id ="info" class="columnname">Course Name</b>
+    </div>
+
+    <div class="col">
+        <b id ="info" class="columnname">Course Code</b>
+    </div>
+
+    <div class="col">
+        <b  id ="info" class="columnname">Credit*</b>
+    </div>
+    <div class="col">
+        <b id ="info" class="columnname">Grade*</b>
+    </div>
+</div>
+
+<!-- First Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit1" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade1" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Second Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit2" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade2" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Third Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit3" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade3" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Fourth Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit4" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade4" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Fifth Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit5" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade5" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Sixth Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit6" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade6" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Seven Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit7" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade7" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Eight Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit8" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade8" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+</div>
+
+<!-- Nine Input-->
+<div class="form-row">
+    <div class="col">
+        <input id="course-name" class="form-control" type="text" placeholder="Course Name">
+    </div>
+
+    <div class="col">
+        <input id="course-code" class="form-control" type="text" placeholder="Course Code">
+    </div>
+
+    <div class="col">
+        <input id="credit9" class="form-control" type="number" placeholder="Credit" min="1" max="5">
+    </div>
+    <div class="col">
+        <select id="grade9" class="form-control">
+            <option value="">Grade</option>
+            <option value="4">A+</option>
+            <option value="3.75">A</option>
+            <option value="3.50">A-</option>
+            <option value="3.25">B+</option>
+            <option value="3">B</option>
+            <option value="2.75">B-</option>
+            <option value="2.50">C+</option>
+            <option value="2.25">C</option>
+            <option value="2.00">D</option>
+            <option value="0">F</option>
+        </select>
+    </div>
+
+</div>
+<br>
+<p class="req" >* Required - All credit & grade field is not necessary to fill up</p>
+<h1 id="result"> </h1>
+
+<div class="grid-container">
+    <div class="grid-item"><input id="calc-gpa" class="btn btn-success" type="button" onclick="fn1()" value="Calculate CGPA"></div>
+    
+    <div class="grid-item"><input id="clear" class="btn btn-danger" type="button" onClick="document.location.reload(true)" value="Clear"></div>
+    <div class="grid-item">    <input id="printp" class="btn btn-primary" type="button" onclick="window.print()" value="Print"></div>    
+  </div>
+   
+
+</div>
+
+
+</div>
+
+<script src="main.js"></script>
+</body>
+
+<footer id="sticky-footer">
+    <div class="container text-center">
+      <small>© Copyright 2021 - Gono Bishwabidyalay. All Rights Reserved | Designed & Developed by <a href="https://www.facebook.com/fhasanrabbi" target="_blank">FUAD HASAN RABBI</a>, Department of CSE, 27th Batch, Gono Bishwabidyala</small>
+    </div>
+  </footer>
+</html>
+
+
